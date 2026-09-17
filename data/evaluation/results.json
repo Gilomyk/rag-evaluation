@@ -1,0 +1,1259 @@
+{
+  "k": 5,
+  "retrieval_summary": {
+    "vector": {
+      "hit_rate": 0.7333333333333333,
+      "recall": 0.7333333333333333,
+      "mrr": 0.5522222222222222,
+      "n_questions": 15
+    },
+    "bm25": {
+      "hit_rate": 0.6,
+      "recall": 0.6,
+      "mrr": 0.4722222222222222,
+      "n_questions": 15
+    },
+    "hybrid": {
+      "hit_rate": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "mrr": 0.4222222222222222,
+      "n_questions": 15
+    }
+  },
+  "answer_summary": {
+    "vector": {
+      "avg_answer_correctness": 0.8308199524879456,
+      "avg_groundedness": 0.8,
+      "n_questions": 15
+    },
+    "bm25": {
+      "avg_answer_correctness": 0.831508723894755,
+      "avg_groundedness": 0.7,
+      "n_questions": 15
+    },
+    "hybrid": {
+      "avg_answer_correctness": 0.8303017695744832,
+      "avg_groundedness": 0.8533333333333334,
+      "n_questions": 15
+    }
+  },
+  "retrieval_details": [
+    {
+      "question_id": "q01",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "quicksort_0"
+      ],
+      "retrieved_chunk_ids": [
+        "quicksort_2",
+        "quicksort_1",
+        "quicksort_4",
+        "quicksort_3",
+        "quicksort_0"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "question_id": "q02",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "quicksort_27"
+      ],
+      "retrieved_chunk_ids": [
+        "bubble_sort_2",
+        "quicksort_53",
+        "quicksort_41",
+        "quicksort_40",
+        "quicksort_39"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q03",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "merge_sort_0"
+      ],
+      "retrieved_chunk_ids": [
+        "merge_sort_0",
+        "merge_sort_9",
+        "merge_sort_33",
+        "merge_sort_10",
+        "bubble_sort_0"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q04",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "bubble_sort_7"
+      ],
+      "retrieved_chunk_ids": [
+        "bubble_sort_1",
+        "bubble_sort_8",
+        "bubble_sort_0",
+        "bubble_sort_7",
+        "bubble_sort_2"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "question_id": "q05",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "binary_search_0"
+      ],
+      "retrieved_chunk_ids": [
+        "binary_search_0",
+        "binary_search_28",
+        "binary_search_15",
+        "binary_search_45",
+        "binary_search_42"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q06",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "binary_search_tree_7"
+      ],
+      "retrieved_chunk_ids": [
+        "binary_search_tree_7",
+        "avl_tree_8",
+        "binary_search_tree_3",
+        "binary_search_tree_9",
+        "binary_search_tree_4"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q07",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "avl_tree_11"
+      ],
+      "retrieved_chunk_ids": [
+        "avl_tree_11",
+        "avl_tree_0",
+        "avl_tree_14",
+        "avl_tree_5",
+        "avl_tree_4"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q08",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "heap_data_structure_7"
+      ],
+      "retrieved_chunk_ids": [
+        "heap_data_structure_0",
+        "heap_data_structure_1",
+        "heap_data_structure_9",
+        "linked_list_44",
+        "heap_data_structure_11"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q09",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "hash_table_14"
+      ],
+      "retrieved_chunk_ids": [
+        "hash_table_14",
+        "hash_table_11",
+        "hash_table_15",
+        "hash_table_16",
+        "hash_table_18"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q10",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "linked_list_25"
+      ],
+      "retrieved_chunk_ids": [
+        "linked_list_18",
+        "linked_list_9",
+        "linked_list_27",
+        "linked_list_11",
+        "linked_list_7"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q11",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "stack_abstract_data_type_12"
+      ],
+      "retrieved_chunk_ids": [
+        "stack_abstract_data_type_7",
+        "stack_abstract_data_type_13",
+        "stack_abstract_data_type_12",
+        "stack_abstract_data_type_0",
+        "stack_abstract_data_type_11"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "question_id": "q12",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "queue_abstract_data_type_6"
+      ],
+      "retrieved_chunk_ids": [
+        "queue_abstract_data_type_6",
+        "queue_abstract_data_type_5",
+        "queue_abstract_data_type_4",
+        "queue_abstract_data_type_0",
+        "queue_abstract_data_type_7"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q13",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "graph_discrete_mathematics_10"
+      ],
+      "retrieved_chunk_ids": [
+        "graph_discrete_mathematics_10",
+        "graph_discrete_mathematics_3",
+        "graph_discrete_mathematics_1",
+        "graph_discrete_mathematics_18",
+        "graph_discrete_mathematics_0"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q14",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "dijkstras_algorithm_0"
+      ],
+      "retrieved_chunk_ids": [
+        "dijkstras_algorithm_3",
+        "dijkstras_algorithm_0",
+        "dijkstras_algorithm_32",
+        "dijkstras_algorithm_30",
+        "dijkstras_algorithm_2"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "q15",
+      "strategy": "vector",
+      "expected_chunk_ids": [
+        "depth-first_search_7"
+      ],
+      "retrieved_chunk_ids": [
+        "depth-first_search_9",
+        "depth-first_search_0",
+        "depth-first_search_8",
+        "depth-first_search_11",
+        "depth-first_search_3"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q01",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "quicksort_0"
+      ],
+      "retrieved_chunk_ids": [
+        "quicksort_0",
+        "quicksort_45",
+        "quicksort_1",
+        "quicksort_4",
+        "merge_sort_32"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q02",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "quicksort_27"
+      ],
+      "retrieved_chunk_ids": [
+        "quicksort_42",
+        "binary_search_15",
+        "quicksort_4",
+        "merge_sort_6",
+        "quicksort_41"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q03",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "merge_sort_0"
+      ],
+      "retrieved_chunk_ids": [
+        "merge_sort_0",
+        "merge_sort_32",
+        "merge_sort_16",
+        "merge_sort_6",
+        "merge_sort_31"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q04",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "bubble_sort_7"
+      ],
+      "retrieved_chunk_ids": [
+        "bubble_sort_2",
+        "bubble_sort_1",
+        "bubble_sort_7",
+        "bubble_sort_6",
+        "bubble_sort_8"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "question_id": "q05",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "binary_search_0"
+      ],
+      "retrieved_chunk_ids": [
+        "quicksort_40",
+        "binary_search_32",
+        "binary_search_31",
+        "quicksort_28",
+        "queue_abstract_data_type_0"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q06",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "binary_search_tree_7"
+      ],
+      "retrieved_chunk_ids": [
+        "avl_tree_5",
+        "avl_tree_8",
+        "binary_search_tree_10",
+        "binary_search_tree_7",
+        "linked_list_24"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "question_id": "q07",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "avl_tree_11"
+      ],
+      "retrieved_chunk_ids": [
+        "avl_tree_11",
+        "avl_tree_10",
+        "avl_tree_0",
+        "avl_tree_14",
+        "binary_search_tree_1"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q08",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "heap_data_structure_7"
+      ],
+      "retrieved_chunk_ids": [
+        "heap_data_structure_7",
+        "dijkstras_algorithm_24",
+        "linked_list_44",
+        "heap_data_structure_0",
+        "heap_data_structure_2"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q09",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "hash_table_14"
+      ],
+      "retrieved_chunk_ids": [
+        "hash_table_14",
+        "hash_table_16",
+        "hash_table_11",
+        "hash_table_15",
+        "hash_table_10"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q10",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "linked_list_25"
+      ],
+      "retrieved_chunk_ids": [
+        "linked_list_25",
+        "linked_list_28",
+        "linked_list_8",
+        "linked_list_7",
+        "linked_list_29"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q11",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "stack_abstract_data_type_12"
+      ],
+      "retrieved_chunk_ids": [
+        "stack_abstract_data_type_0",
+        "stack_abstract_data_type_1",
+        "stack_abstract_data_type_11",
+        "queue_abstract_data_type_1",
+        "depth-first_search_0"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q12",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "queue_abstract_data_type_6"
+      ],
+      "retrieved_chunk_ids": [
+        "queue_abstract_data_type_1",
+        "queue_abstract_data_type_5",
+        "linked_list_42",
+        "heap_data_structure_7",
+        "queue_abstract_data_type_4"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q13",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "graph_discrete_mathematics_10"
+      ],
+      "retrieved_chunk_ids": [
+        "volcano_28",
+        "graph_discrete_mathematics_10",
+        "volcano_29",
+        "graph_discrete_mathematics_9",
+        "heap_data_structure_1"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "q14",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "dijkstras_algorithm_0"
+      ],
+      "retrieved_chunk_ids": [
+        "dijkstras_algorithm_30",
+        "dijkstras_algorithm_25",
+        "dynamic_programming_17",
+        "dijkstras_algorithm_29",
+        "dijkstras_algorithm_2"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q15",
+      "strategy": "bm25",
+      "expected_chunk_ids": [
+        "depth-first_search_7"
+      ],
+      "retrieved_chunk_ids": [
+        "depth-first_search_9",
+        "depth-first_search_8",
+        "depth-first_search_10",
+        "depth-first_search_0",
+        "depth-first_search_11"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q01",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "quicksort_0"
+      ],
+      "retrieved_chunk_ids": [
+        "quicksort_1",
+        "quicksort_0",
+        "quicksort_4",
+        "quicksort_45",
+        "quicksort_2"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "q02",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "quicksort_27"
+      ],
+      "retrieved_chunk_ids": [
+        "quicksort_41",
+        "quicksort_42",
+        "quicksort_4",
+        "quicksort_26",
+        "merge_sort_6"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q03",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "merge_sort_0"
+      ],
+      "retrieved_chunk_ids": [
+        "merge_sort_0",
+        "merge_sort_32",
+        "merge_sort_9",
+        "merge_sort_10",
+        "merge_sort_7"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q04",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "bubble_sort_7"
+      ],
+      "retrieved_chunk_ids": [
+        "bubble_sort_1",
+        "bubble_sort_2",
+        "bubble_sort_8",
+        "bubble_sort_7",
+        "bubble_sort_6"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "question_id": "q05",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "binary_search_0"
+      ],
+      "retrieved_chunk_ids": [
+        "binary_search_46",
+        "binary_search_28",
+        "binary_search_31",
+        "binary_search_45",
+        "binary_search_29"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q06",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "binary_search_tree_7"
+      ],
+      "retrieved_chunk_ids": [
+        "avl_tree_8",
+        "binary_search_tree_7",
+        "binary_search_tree_9",
+        "binary_search_tree_3",
+        "binary_search_tree_10"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "q07",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "avl_tree_11"
+      ],
+      "retrieved_chunk_ids": [
+        "avl_tree_11",
+        "avl_tree_0",
+        "avl_tree_14",
+        "binary_search_tree_1",
+        "avl_tree_10"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q08",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "heap_data_structure_7"
+      ],
+      "retrieved_chunk_ids": [
+        "heap_data_structure_0",
+        "linked_list_44",
+        "heap_data_structure_1",
+        "heap_data_structure_2",
+        "heap_data_structure_11"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q09",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "hash_table_14"
+      ],
+      "retrieved_chunk_ids": [
+        "hash_table_14",
+        "hash_table_11",
+        "hash_table_16",
+        "hash_table_15",
+        "hash_table_19"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q10",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "linked_list_25"
+      ],
+      "retrieved_chunk_ids": [
+        "linked_list_18",
+        "linked_list_7",
+        "linked_list_25",
+        "linked_list_28",
+        "linked_list_24"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "question_id": "q11",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "stack_abstract_data_type_12"
+      ],
+      "retrieved_chunk_ids": [
+        "stack_abstract_data_type_0",
+        "stack_abstract_data_type_11",
+        "stack_abstract_data_type_7",
+        "stack_abstract_data_type_12",
+        "stack_abstract_data_type_1"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "question_id": "q12",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "queue_abstract_data_type_6"
+      ],
+      "retrieved_chunk_ids": [
+        "queue_abstract_data_type_5",
+        "queue_abstract_data_type_1",
+        "queue_abstract_data_type_4",
+        "linked_list_42",
+        "queue_abstract_data_type_0"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "question_id": "q13",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "graph_discrete_mathematics_10"
+      ],
+      "retrieved_chunk_ids": [
+        "graph_discrete_mathematics_10",
+        "graph_discrete_mathematics_17",
+        "graph_discrete_mathematics_9",
+        "graph_discrete_mathematics_12",
+        "volcano_28"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "question_id": "q14",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "dijkstras_algorithm_0"
+      ],
+      "retrieved_chunk_ids": [
+        "dijkstras_algorithm_30",
+        "dijkstras_algorithm_0",
+        "dijkstras_algorithm_2",
+        "dijkstras_algorithm_25",
+        "dijkstras_algorithm_29"
+      ],
+      "hit": true,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "question_id": "q15",
+      "strategy": "hybrid",
+      "expected_chunk_ids": [
+        "depth-first_search_7"
+      ],
+      "retrieved_chunk_ids": [
+        "depth-first_search_9",
+        "depth-first_search_8",
+        "depth-first_search_0",
+        "depth-first_search_11",
+        "depth-first_search_2"
+      ],
+      "hit": false,
+      "recall": 0.0,
+      "reciprocal_rank": 0.0
+    }
+  ],
+  "answer_details": [
+    {
+      "question_id": "q01",
+      "strategy": "vector",
+      "question": "Who developed the quicksort algorithm and when was it published?",
+      "generated_answer": "Tony Hoare developed the quicksort algorithm in 1959, and it was published in 1961. [1]",
+      "reference_answer": "Quicksort was developed by British computer scientist Tony Hoare in 1959 and published in 1961.",
+      "answer_correctness": 0.8922392129898071,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer is directly supported by passage [1] which states 'Hoare mentioned to his boss that he knew of a faster algorithm, and his boss bet a sixpence that he did not. His boss ultimately accepted that he had lost the bet. Hoare published a paper about his algorithm, including a theoretical analysis, in The Computer Journal Volume 5, Issue 1, 1962, Pages 10–16."
+    },
+    {
+      "question_id": "q02",
+      "strategy": "vector",
+      "question": "Under what circumstances does quicksort exhibit its worst-case O(n^2) performance?",
+      "generated_answer": "According to passage [5], quicksort exhibits its worst-case O(n^2) performance when it is not carefully implemented. Specifically, this occurs when the algorithm uses O(n) auxiliary space, which can happen in the worst case if the algorithm makes O(n) nested recursive calls.",
+      "reference_answer": "This occurs when the pivot happens to be the smallest or largest element in the list, or, in schemes like Lomuto, when all elements are equal, causing each recursive call to reduce the list size by only one.",
+      "answer_correctness": 0.5157753229141235,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer is partially supported by passage [5], but it does not provide a clear explanation of the circumstances under which quicksort exhibits its worst-case O(n^2) performance."
+    },
+    {
+      "question_id": "q03",
+      "strategy": "vector",
+      "question": "Who invented merge sort and in what year?",
+      "generated_answer": "John von Neumann invented merge sort in 1945. [1]",
+      "reference_answer": "Merge sort was invented by John von Neumann in 1945.",
+      "answer_correctness": 0.9828619956970215,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The context passage [1] directly states that John von Neumann invented merge sort in 1945."
+    },
+    {
+      "question_id": "q04",
+      "strategy": "vector",
+      "question": "Why is bubble sort still commonly used today, despite its poor performance on large lists?",
+      "generated_answer": "According to passage [4], bubble sort is still commonly used today, despite its poor performance on large lists, because of its simplicity, which makes it easy to understand and implement, especially for introductory computer science students. It is often used to introduce the concept of an algorithm to students.",
+      "reference_answer": "Because of its simplicity, bubble sort is mainly used as an educational tool to introduce the concept of a sorting algorithm, even though algorithms like insertion sort are considerably more efficient in practice.",
+      "answer_correctness": 0.8794498443603516,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer is partially supported, as it mentions simplicity as a reason, but passage [4] also states that educators have gone to great lengths to disparage bubble sort and its continued popularity in computer science education."
+    },
+    {
+      "question_id": "q05",
+      "strategy": "vector",
+      "question": "What is a requirement for the input array before performing binary search?",
+      "generated_answer": "The input array must be sorted before performing binary search. [1]",
+      "reference_answer": "The array must be sorted; binary search finds a target value by repeatedly comparing it to the middle element of the sorted array.",
+      "answer_correctness": 0.8640292882919312,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [1]"
+    },
+    {
+      "question_id": "q06",
+      "strategy": "vector",
+      "question": "What happens when deleting a leaf node from a binary search tree?",
+      "generated_answer": "When deleting a leaf node from a binary search tree, the leaf node is replaced by NIL. [1]",
+      "reference_answer": "If the node being deleted is a leaf node, it is simply replaced by NIL.",
+      "answer_correctness": 0.8624171018600464,
+      "groundedness": 0.0,
+      "groundedness_reasoning": "PARSE_ERROR: {\"score\": 1.0, \"reasoning\": \"Directly stated in [1] as 'If Z {\\displaystyle {\\text{Z}}} is a leaf no"
+    },
+    {
+      "question_id": "q07",
+      "strategy": "vector",
+      "question": "What set operations are defined on AVL trees beyond single-element insert, delete and lookup, and what helper operations do they rely on?",
+      "generated_answer": "The set operations defined on AVL trees beyond single-element insert, delete, and lookup are union, intersection, and set difference. These set operations rely on two helper operations: Split and Join.",
+      "reference_answer": "Union, intersection and set difference are defined as bulk operations on AVL trees, relying on two helper operations called Split and Join.",
+      "answer_correctness": 0.8721766471862793,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The context passages explicitly state that set operations such as union, intersection, and set difference are defined on AVL trees, and that these operations rely on the helper operations Split and Join."
+    },
+    {
+      "question_id": "q08",
+      "strategy": "vector",
+      "question": "What are some practical applications of the heap data structure?",
+      "generated_answer": "According to the context passages, some practical applications of the heap data structure include:\n\n* Repeatedly removing the object with the highest (or lowest) priority, or when insertions need to be interspersed with removals of the root node [1]\n* Efficient graph algorithms, such as Dijkstra's algorithm [2]\n* Sorting algorithms, such as heapsort [2]\n* Priority queues, which are often referred to as \"heaps\" [1]\n* Data retrieval and search, as a self-organizing list rearranges its nodes based on some heuristic [4]\n\nNote that these applications are not exhaustive, and the context passages do not provide a comprehensive list of all possible practical applications of the heap data structure.",
+      "reference_answer": "Heaps are used in heapsort, in selection algorithms for finding the smallest/largest element in constant time (or the k-smallest in O(k) time), and for finding the median.",
+      "answer_correctness": 0.7351272106170654,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "Some applications are directly supported, but others are not explicitly mentioned or require additional context."
+    },
+    {
+      "question_id": "q09",
+      "strategy": "vector",
+      "question": "What is open addressing as a collision resolution technique in hash tables?",
+      "generated_answer": "Open addressing is a collision resolution technique in hash tables where every entry record is stored in the bucket array itself, and the hash resolution is performed through probing. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence, until an unoccupied slot is found. When searching for an entry, the buckets are scanned in the same sequence, until either the target record is found, or an unused array slot is found, which indicates an unsuccessful search. [1]",
+      "reference_answer": "Open addressing is a technique where every entry is stored directly in the bucket array itself, and collisions are resolved by probing for the next available slot.",
+      "answer_correctness": 0.9042678475379944,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the definition of open addressing from passage [1]"
+    },
+    {
+      "question_id": "q10",
+      "strategy": "vector",
+      "question": "How is a singly linked list traversed from beginning to end?",
+      "generated_answer": "According to passage [3], a singly linked list can be traversed from beginning to end by starting at the head of the list and following the 'next' field until the end of the list is reached.",
+      "reference_answer": "Traversal starts at the list's first node and follows each node's 'next' reference in sequence until reaching a null (end-of-list) marker.",
+      "answer_correctness": 0.7323355078697205,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The passage explicitly states that the first useful data in the list will be found at list.firstNode.next, implying that the 'next' field points to the next node in line, allowing traversal from beginning to end."
+    },
+    {
+      "question_id": "q11",
+      "strategy": "vector",
+      "question": "How is a stack typically represented in computer memory?",
+      "generated_answer": "A stack is typically represented in computer memory as a block of memory cells, with the \"bottom\" at a fixed location, and the stack pointer holding the address of the current \"top\" cell in the stack. [5]",
+      "reference_answer": "A stack is represented by a block of memory with a fixed bottom location and a stack pointer tracking the current top; many CPU designs (e.g. x86, Z80, 6502) even have a dedicated register for the call stack pointer.",
+      "answer_correctness": 0.8931348323822021,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [5]"
+    },
+    {
+      "question_id": "q12",
+      "strategy": "vector",
+      "question": "How can a queue be implemented using two lists, and what is the time complexity of the enqueue operation in this design?",
+      "generated_answer": "A queue can be implemented using two lists, f and r, where f holds the front part of the queue and r holds the remaining elements (the rear of the queue) in reverse order.\n\nThe enqueue operation can be implemented by adding a node at the head of f, and if r is not empty, removing the node at the head of r. If r is empty, reversing f and assigning it to r, and then removing the head of r.\n\nThe time complexity of the enqueue operation is O(1) when the list r is not empty, and O(n) where n is the number of elements in f when r is empty, but it can be considered O(1) amortized time because every element in f had to be inserted. [1]",
+      "reference_answer": "One list holds the front of the queue and another holds the rear in reverse order; inserting at the front list makes enqueue an O(1) operation.",
+      "answer_correctness": 0.6959340572357178,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer partially misrepresents the time complexity of the enqueue operation when r is empty, stating it as O(1) instead of O(n)."
+    },
+    {
+      "question_id": "q13",
+      "strategy": "vector",
+      "question": "What defines a complete graph?",
+      "generated_answer": "A complete graph is defined as a graph in which each pair of vertices is joined by an edge. [1]",
+      "reference_answer": "A complete graph is a graph in which every pair of vertices is joined by an edge, i.e., it contains all possible edges.",
+      "answer_correctness": 0.9635242223739624,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [1]"
+    },
+    {
+      "question_id": "q14",
+      "strategy": "vector",
+      "question": "What problem does Dijkstra's algorithm solve, and who created it?",
+      "generated_answer": "Dijkstra's algorithm solves the problem of finding the shortest paths between nodes in a weighted graph, which may represent, for example, a road network. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later. [1], [2]",
+      "reference_answer": "Dijkstra's algorithm finds the shortest paths between nodes in a weighted graph. It was conceived by Edsger W. Dijkstra in 1956 and published three years later.",
+      "answer_correctness": 0.920890212059021,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the context passages, stating the problem Dijkstra's algorithm solves and who created it, without any additional information or inference."
+    },
+    {
+      "question_id": "q15",
+      "strategy": "vector",
+      "question": "How is depth-first search typically implemented as a recursive procedure?",
+      "generated_answer": "According to passage [1], a recursive implementation of depth-first search is typically implemented as follows:\n\nprocedure DFS_recursive(G, v)\n  as discovered then label v as discovered\n  for all edges from v to w in G.adjacentEdges(v) do\n    if w is not labeled as discovered then\n      label w as discovered\n      DFS_recursive(G, w)\n\nThis procedure starts at vertex v, labels it as discovered, and then recursively calls itself for each unvisited neighbor w of v.",
+      "reference_answer": "The recursive DFS procedure labels the current vertex as discovered, then for each adjacent edge leading to an undiscovered vertex, recursively calls DFS on that vertex.",
+      "answer_correctness": 0.7481359839439392,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the recursive implementation of depth-first search from passage [1], which is a clear and direct representation of how the algorithm is typically implemented as a recursive procedure."
+    },
+    {
+      "question_id": "q01",
+      "strategy": "bm25",
+      "question": "Who developed the quicksort algorithm and when was it published?",
+      "generated_answer": "The quicksort algorithm was developed by British computer scientist Tony Hoare in 1959 and published in 1961. [1]",
+      "reference_answer": "Quicksort was developed by British computer scientist Tony Hoare in 1959 and published in 1961.",
+      "answer_correctness": 0.8942756652832031,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes from passage [1] and provides the correct information about the developer and publication date of the quicksort algorithm."
+    },
+    {
+      "question_id": "q02",
+      "strategy": "bm25",
+      "question": "Under what circumstances does quicksort exhibit its worst-case O(n^2) performance?",
+      "generated_answer": "Quicksort exhibits its worst-case O(n^2) performance when it encounters a \"bad pivot choice\", which leads to a highly unbalanced partitioning, resulting in a recursive call stack that grows exponentially. This can happen when the pivot is the smallest or largest element in the array, causing the partitioning to be highly skewed. [1]",
+      "reference_answer": "This occurs when the pivot happens to be the smallest or largest element in the list, or, in schemes like Lomuto, when all elements are equal, causing each recursive call to reduce the list size by only one.",
+      "answer_correctness": 0.5919023752212524,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer is partially supported by the context, as it mentions 'bad pivot choices' as a cause of worst-case performance, but does not explicitly state that this leads to a highly unbalanced partitioning or an exponentially growing recursive call stack."
+    },
+    {
+      "question_id": "q03",
+      "strategy": "bm25",
+      "question": "Who invented merge sort and in what year?",
+      "generated_answer": "John von Neumann invented merge sort in 1945. [1]",
+      "reference_answer": "Merge sort was invented by John von Neumann in 1945.",
+      "answer_correctness": 0.9828619956970215,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [1]"
+    },
+    {
+      "question_id": "q04",
+      "strategy": "bm25",
+      "question": "Why is bubble sort still commonly used today, despite its poor performance on large lists?",
+      "generated_answer": "According to passage [3], bubble sort is still commonly used today, despite its poor performance on large lists, because of its simplicity, which makes it easy to understand and implement, especially for introductory computer science students. This is also mentioned in passage [4], where it is stated that \"Due to its simplicity, bubble sort is often used to introduce the concept of an algorithm, or a sorting algorithm, to introductory computer science students.\"\n\nAdditionally, passage [5] mentions that bubble sort is used in computer graphics for its capability to detect a small error in almost-sorted arrays and fix it with linear complexity, which is a specific use case where its performance is not as poor as on large lists.\n\nIt's worth noting that passage [3] also mentions that some educators, such as Owen Astrachan, have gone to great lengths to disparage bubble sort, but this does not necessarily mean it is not still used.",
+      "reference_answer": "Because of its simplicity, bubble sort is mainly used as an educational tool to introduce the concept of a sorting algorithm, even though algorithms like insertion sort are considerably more efficient in practice.",
+      "answer_correctness": 0.8593167066574097,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer partially relies on information from passages [3] and [5], but the primary reason for bubble sort's continued use is not directly supported by the context."
+    },
+    {
+      "question_id": "q05",
+      "strategy": "bm25",
+      "question": "What is a requirement for the input array before performing binary search?",
+      "generated_answer": "The passage does not explicitly state a requirement for the input array before performing binary search. However, it does mention that binary search is ideal for finding a \"record\" [3], but it does not specify what kind of record or what the record should be.",
+      "reference_answer": "The array must be sorted; binary search finds a target value by repeatedly comparing it to the middle element of the sorted array.",
+      "answer_correctness": 0.657475471496582,
+      "groundedness": 0.0,
+      "groundedness_reasoning": "The passage does not explicitly state a requirement for the input array before performing binary search."
+    },
+    {
+      "question_id": "q06",
+      "strategy": "bm25",
+      "question": "What happens when deleting a leaf node from a binary search tree?",
+      "generated_answer": "When deleting a leaf node from a binary search tree, the node is replaced by NIL (or NULL, depending on the implementation).",
+      "reference_answer": "If the node being deleted is a leaf node, it is simply replaced by NIL.",
+      "answer_correctness": 0.8708232641220093,
+      "groundedness": 0.0,
+      "groundedness_reasoning": "PARSE_ERROR: {\"score\": 1.0, \"reasoning\": \"Directly stated in section 4, subsection 4, 'If Z {\\displaystyle {\\text"
+    },
+    {
+      "question_id": "q07",
+      "strategy": "bm25",
+      "question": "What set operations are defined on AVL trees beyond single-element insert, delete and lookup, and what helper operations do they rely on?",
+      "generated_answer": "The set operations defined on AVL trees beyond single-element insert, delete, and lookup are union, intersection, and set difference. These set operations rely on two helper operations: Split and Join.",
+      "reference_answer": "Union, intersection and set difference are defined as bulk operations on AVL trees, relying on two helper operations called Split and Join.",
+      "answer_correctness": 0.8721766471862793,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer is directly supported by passages [1], [4], and [3]"
+    },
+    {
+      "question_id": "q08",
+      "strategy": "bm25",
+      "question": "What are some practical applications of the heap data structure?",
+      "generated_answer": "According to passage [1], the heap data structure has many applications, including:\n\n* Heapsort: One of the best sorting methods being in-place and with no quadratic worst-case scenarios.\n* Selection algorithms: A heap allows access to the smallest or largest element in constant time.\n* The k-smallest element in a given heap can be found in O(k) time.\n* Finding the (lower and upper if necessary) median using the heap can be done in O(n) time.\n* Graph algorithms: By using heaps as internal traversal data structures, run time will be reduced by polynomial order.\n* Priority queue: A priority queue is an abstract concept like \"a list\" or \"a map\"; just as a list can be implemented with a linked list or an array, a priority queue can be implemented with a heap or.\n\nNote that these applications are mentioned in passage [1], which provides a general overview of the heap data structure and its applications.",
+      "reference_answer": "Heaps are used in heapsort, in selection algorithms for finding the smallest/largest element in constant time (or the k-smallest in O(k) time), and for finding the median.",
+      "answer_correctness": 0.8107422590255737,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "All applications mentioned in passage [1] are directly supported by the context."
+    },
+    {
+      "question_id": "q09",
+      "strategy": "bm25",
+      "question": "What is open addressing as a collision resolution technique in hash tables?",
+      "generated_answer": "Open addressing is a collision resolution technique in hash tables where every entry record is stored in the bucket array itself, and the hash resolution is performed through probing. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence, until an unoccupied slot is found. When searching for an entry, the buckets are scanned in the same sequence, until either the target record is found, or an unused array slot is found, which indicates an unsuccessful search. [1]",
+      "reference_answer": "Open addressing is a technique where every entry is stored directly in the bucket array itself, and collisions are resolved by probing for the next available slot.",
+      "answer_correctness": 0.9042678475379944,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The passage directly defines open addressing as a collision resolution technique in hash tables, where every entry record is stored in the bucket array itself and the hash resolution is performed through probing."
+    },
+    {
+      "question_id": "q10",
+      "strategy": "bm25",
+      "question": "How is a singly linked list traversed from beginning to end?",
+      "generated_answer": "According to passage [1], a singly linked list is traversed from beginning to end by starting at the first node and following each next link until reaching the end: node := list.firstNode while node not null (do something with node.data) node := node.next",
+      "reference_answer": "Traversal starts at the list's first node and follows each node's 'next' reference in sequence until reaching a null (end-of-list) marker.",
+      "answer_correctness": 0.7602039575576782,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the passage [1] that describes the traversal of a singly linked list from beginning to end."
+    },
+    {
+      "question_id": "q11",
+      "strategy": "bm25",
+      "question": "How is a stack typically represented in computer memory?",
+      "generated_answer": "A stack is typically represented in computer memory as a block of memory cells, with the \"bottom\" at a fixed location, and the stack pointer holding the address of the current \"top\" cell in the stack.",
+      "reference_answer": "A stack is represented by a block of memory with a fixed bottom location and a stack pointer tracking the current top; many CPU designs (e.g. x86, Z80, 6502) even have a dedicated register for the call stack pointer.",
+      "answer_correctness": 0.903437614440918,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [3]"
+    },
+    {
+      "question_id": "q12",
+      "strategy": "bm25",
+      "question": "How can a queue be implemented using two lists, and what is the time complexity of the enqueue operation in this design?",
+      "generated_answer": "According to passage [2], a queue can be implemented using two singly-linked lists, named f and r. The list f holds the front part of the queue, and the list r holds the remaining elements (the rear of the queue) in reverse order.\n\nThe time complexity of the enqueue operation in this design is O(1) in the worst-case scenario, as it only requires updating the front pointer of the list f and adding the new element to the end of the list r.",
+      "reference_answer": "One list holds the front of the queue and another holds the rear in reverse order; inserting at the front list makes enqueue an O(1) operation.",
+      "answer_correctness": 0.8049840927124023,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the passage [2] and accurately describes the implementation of a queue using two lists, and correctly states the time complexity of the enqueue operation."
+    },
+    {
+      "question_id": "q13",
+      "strategy": "bm25",
+      "question": "What defines a complete graph?",
+      "generated_answer": "A complete graph is a graph in which each pair of vertices is joined by an edge. [2]",
+      "reference_answer": "A complete graph is a graph in which every pair of vertices is joined by an edge, i.e., it contains all possible edges.",
+      "answer_correctness": 0.9719291925430298,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [2]"
+    },
+    {
+      "question_id": "q14",
+      "strategy": "bm25",
+      "question": "What problem does Dijkstra's algorithm solve, and who created it?",
+      "generated_answer": "Dijkstra's algorithm solves the problem of finding the path of minimum total length between two given nodes P and Q in a graph. It was designed by Edsger W. Dijkstra. [1], [5]",
+      "reference_answer": "Dijkstra's algorithm finds the shortest paths between nodes in a weighted graph. It was conceived by Edsger W. Dijkstra in 1956 and published three years later.",
+      "answer_correctness": 0.7868626117706299,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer is partially supported, as the context passage [1] explicitly states that Dijkstra's algorithm solves the problem of finding the path of minimum total length between two given nodes P and Q, but does not mention who created it."
+    },
+    {
+      "question_id": "q15",
+      "strategy": "bm25",
+      "question": "How is depth-first search typically implemented as a recursive procedure?",
+      "generated_answer": "The recursive procedure for depth-first search typically involves the following steps:\n\n1. Label the current vertex as discovered.\n2. For each edge from the current vertex to an unvisited neighbor, recursively call the DFS procedure on that neighbor.\n3. If the neighbor has not been visited before, push it onto the stack.\n4. Repeat steps 1-3 until all neighbors have been visited.\n\nThis is described in passage [1], which states: \"procedure DFS_iterative(G, v) is let S be a stack label v as discovered S.push(iterator of G.adjacentEdges(v)) while S is not empty do if S.peek().hasNext() then w = S.peek().next() if w is not labeled as discovered then label w as discovered S.push(iterator of G.adjacentEdges(w)) else S.pop()\".",
+      "reference_answer": "The recursive DFS procedure labels the current vertex as discovered, then for each adjacent edge leading to an undiscovered vertex, recursively calls DFS on that vertex.",
+      "answer_correctness": 0.801371157169342,
+      "groundedness": 0.0,
+      "groundedness_reasoning": "The answer contains a procedure that is not directly supported by the context passages, but rather is a variation of the iterative implementation described in passage [1]"
+    },
+    {
+      "question_id": "q01",
+      "strategy": "hybrid",
+      "question": "Who developed the quicksort algorithm and when was it published?",
+      "generated_answer": "The quicksort algorithm was developed by Tony Hoare. According to passage [2], it was published in 1961.",
+      "reference_answer": "Quicksort was developed by British computer scientist Tony Hoare in 1959 and published in 1961.",
+      "answer_correctness": 0.8736683130264282,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer is directly supported by passage [2], which states that Quicksort was developed by British computer scientist Tony Hoare in 1959 and published in 1961."
+    },
+    {
+      "question_id": "q02",
+      "strategy": "hybrid",
+      "question": "Under what circumstances does quicksort exhibit its worst-case O(n^2) performance?",
+      "generated_answer": "Quicksort exhibits its worst-case O(n^2) performance when the pivot happens to be the smallest or largest element in the list, or in some implementations (e.g., the Lomuto partition scheme as described above) when all the elements are equal. [1]",
+      "reference_answer": "This occurs when the pivot happens to be the smallest or largest element in the list, or, in schemes like Lomuto, when all elements are equal, causing each recursive call to reduce the list size by only one.",
+      "answer_correctness": 0.6345690488815308,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the context passage [1] as the reason for quicksort's worst-case O(n^2) performance."
+    },
+    {
+      "question_id": "q03",
+      "strategy": "hybrid",
+      "question": "Who invented merge sort and in what year?",
+      "generated_answer": "John von Neumann invented merge sort in 1945. [1]",
+      "reference_answer": "Merge sort was invented by John von Neumann in 1945.",
+      "answer_correctness": 0.9828619956970215,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [1]"
+    },
+    {
+      "question_id": "q04",
+      "strategy": "hybrid",
+      "question": "Why is bubble sort still commonly used today, despite its poor performance on large lists?",
+      "generated_answer": "According to passage [4], bubble sort is still commonly used today, despite its poor performance on large lists, because of its simplicity, which makes it easy to understand and implement, especially for introductory computer science students.",
+      "reference_answer": "Because of its simplicity, bubble sort is mainly used as an educational tool to introduce the concept of a sorting algorithm, even though algorithms like insertion sort are considerably more efficient in practice.",
+      "answer_correctness": 0.8550444841384888,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The answer is partially supported, as passage [4] mentions that bubble sort is often used to introduce the concept of an algorithm to introductory computer science students, but it does not explicitly state that it is still commonly used today despite its poor performance on large lists."
+    },
+    {
+      "question_id": "q05",
+      "strategy": "hybrid",
+      "question": "What is a requirement for the input array before performing binary search?",
+      "generated_answer": "The passage does not explicitly state a requirement for the input array before performing binary search. However, it does mention that the array must be sorted for binary search to work efficiently, but it does not explicitly state this as a requirement.",
+      "reference_answer": "The array must be sorted; binary search finds a target value by repeatedly comparing it to the middle element of the sorted array.",
+      "answer_correctness": 0.7607870697975159,
+      "groundedness": 0.5,
+      "groundedness_reasoning": "The passage does not explicitly state a requirement for the input array before performing binary search, but implies it through the mention of sorting."
+    },
+    {
+      "question_id": "q06",
+      "strategy": "hybrid",
+      "question": "What happens when deleting a leaf node from a binary search tree?",
+      "generated_answer": "When deleting a leaf node from a binary search tree, the node is replaced by NIL. [2]",
+      "reference_answer": "If the node being deleted is a leaf node, it is simply replaced by NIL.",
+      "answer_correctness": 0.8624361753463745,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [2]"
+    },
+    {
+      "question_id": "q07",
+      "strategy": "hybrid",
+      "question": "What set operations are defined on AVL trees beyond single-element insert, delete and lookup, and what helper operations do they rely on?",
+      "generated_answer": "According to passage [1], set operations defined on AVL trees beyond single-element insert, delete, and lookup are union, intersection, and set difference. These set operations rely on two helper operations: Split and Join.",
+      "reference_answer": "Union, intersection and set difference are defined as bulk operations on AVL trees, relying on two helper operations called Split and Join.",
+      "answer_correctness": 0.8657118678092957,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes passage [1] which explicitly states the set operations defined on AVL trees and the helper operations they rely on."
+    },
+    {
+      "question_id": "q08",
+      "strategy": "hybrid",
+      "question": "What are some practical applications of the heap data structure?",
+      "generated_answer": "According to passage [1], some practical applications of the heap data structure include:\n\n* Repeatedly removing the object with the highest (or lowest) priority\n* Insertions needing to be interspersed with removals of the root node\n* Heaps are crucial in several efficient graph algorithms, such as Dijkstra's algorithm.\n\nAdditionally, passage [3] mentions that heaps are also useful in sorting algorithms, specifically the heapsort sorting algorithm, and that they have a wide range of applications in computer science.\n\nNote that passage [4] lists some common operations involving heaps, but does not specifically mention practical applications.",
+      "reference_answer": "Heaps are used in heapsort, in selection algorithms for finding the smallest/largest element in constant time (or the k-smallest in O(k) time), and for finding the median.",
+      "answer_correctness": 0.7440807223320007,
+      "groundedness": 0.8,
+      "groundedness_reasoning": "The answer partially misses the specific example of heapsort, which is mentioned in passage [3] as a notable application of heaps."
+    },
+    {
+      "question_id": "q09",
+      "strategy": "hybrid",
+      "question": "What is open addressing as a collision resolution technique in hash tables?",
+      "generated_answer": "Open addressing is a collision resolution technique in hash tables where every entry record is stored in the bucket array itself, and the hash resolution is performed through probing. When a new entry has to be inserted, the buckets are examined, starting with the hashed-to slot and proceeding in some probe sequence, until an unoccupied slot is found. When searching for an entry, the buckets are scanned in the same sequence, until either the target record is found, or an unused array slot is found, which indicates an unsuccessful search. [1]",
+      "reference_answer": "Open addressing is a technique where every entry is stored directly in the bucket array itself, and collisions are resolved by probing for the next available slot.",
+      "answer_correctness": 0.9042678475379944,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the definition of open addressing from passage [1] and accurately describes its operation."
+    },
+    {
+      "question_id": "q10",
+      "strategy": "hybrid",
+      "question": "How is a singly linked list traversed from beginning to end?",
+      "generated_answer": "A singly linked list is traversed from beginning to end by starting at the first node and following each next link until reaching the end. The traversal can be represented by the following pseudocode: `node := list.firstNode while node not null (do something with node.data) node := node.next`\n\n[1]",
+      "reference_answer": "Traversal starts at the list's first node and follows each node's 'next' reference in sequence until reaching a null (end-of-list) marker.",
+      "answer_correctness": 0.8006980419158936,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The context passage [1] explicitly states that traversal of a singly linked list is simple, beginning at the first node and following each next link until reaching the end."
+    },
+    {
+      "question_id": "q11",
+      "strategy": "hybrid",
+      "question": "How is a stack typically represented in computer memory?",
+      "generated_answer": "A stack is typically represented in computer memory as a block of memory cells, with the \"bottom\" at a fixed location, and the stack pointer holding the address of the current \"top\" cell in the stack. [2]",
+      "reference_answer": "A stack is represented by a block of memory with a fixed bottom location and a stack pointer tracking the current top; many CPU designs (e.g. x86, Z80, 6502) even have a dedicated register for the call stack pointer.",
+      "answer_correctness": 0.8939864039421082,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The passage directly states that a stack is usually represented in computers by a block of memory cells, with the 'bottom' at a fixed location, and the stack pointer holding the address of the current 'top' cell in the stack."
+    },
+    {
+      "question_id": "q12",
+      "strategy": "hybrid",
+      "question": "How can a queue be implemented using two lists, and what is the time complexity of the enqueue operation in this design?",
+      "generated_answer": "According to passage [1], a queue can be implemented using two lists, specifically a singly-linked list named f (front) and another named r (rear), where the list f holds the front part of the queue and the list r holds the remaining elements (the rear of the queue) in reverse order.\n\nThe time complexity of the enqueue operation in this design is O(1) in the worst case, as stated in passage [1].",
+      "reference_answer": "One list holds the front of the queue and another holds the rear in reverse order; inserting at the front list makes enqueue an O(1) operation.",
+      "answer_correctness": 0.8186737298965454,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the context passage [1] and accurately describes the implementation of a queue using two lists, and also correctly states the time complexity of the enqueue operation in this design."
+    },
+    {
+      "question_id": "q13",
+      "strategy": "hybrid",
+      "question": "What defines a complete graph?",
+      "generated_answer": "A complete graph is a graph in which each pair of vertices is joined by an edge. [1]",
+      "reference_answer": "A complete graph is a graph in which every pair of vertices is joined by an edge, i.e., it contains all possible edges.",
+      "answer_correctness": 0.9708613157272339,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "Directly stated in passage [1]"
+    },
+    {
+      "question_id": "q14",
+      "strategy": "hybrid",
+      "question": "What problem does Dijkstra's algorithm solve, and who created it?",
+      "generated_answer": "Dijkstra's algorithm solves the problem of finding the shortest paths between nodes in a weighted graph, which may represent, for example, a road network. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later. [2]",
+      "reference_answer": "Dijkstra's algorithm finds the shortest paths between nodes in a weighted graph. It was conceived by Edsger W. Dijkstra in 1956 and published three years later.",
+      "answer_correctness": 0.9219931960105896,
+      "groundedness": 1.0,
+      "groundedness_reasoning": "The answer directly quotes the context passages, stating that Dijkstra's algorithm solves the problem of finding the shortest paths between nodes in a weighted graph, and attributes its creation to Edsger W. Dijkstra."
+    },
+    {
+      "question_id": "q15",
+      "strategy": "hybrid",
+      "question": "How is depth-first search typically implemented as a recursive procedure?",
+      "generated_answer": "According to passage [1], the recursive implementation of depth-first search visits the nodes in the following order: A, B, D, F, E, C, G. This is because the first neighbor of v visited by the recursive variation is the first one in the list of adjacent edges, while in the iterative variation the first visited neighbor is the last one in the list of adjacent edges.",
+      "reference_answer": "The recursive DFS procedure labels the current vertex as discovered, then for each adjacent edge leading to an undiscovered vertex, recursively calls DFS on that vertex.",
+      "answer_correctness": 0.5648863315582275,
+      "groundedness": 0.0,
+      "groundedness_reasoning": "the answer is not supported by the context passages, as the order of visitation is not explicitly stated in passage [1]"
+    }
+  ]
+}
