@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": "q01",
+    "question": "Who developed the quicksort algorithm and when was it published?",
+    "expected_chunk_ids": ["quicksort_0"],
+    "reference_answer": "Quicksort was developed by British computer scientist Tony Hoare in 1959 and published in 1961.",
+    "category": "core",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "q02",
+    "question": "Under what circumstances does quicksort exhibit its worst-case O(n^2) performance?",
+    "expected_chunk_ids": ["quicksort_27"],
+    "reference_answer": "This occurs when the pivot happens to be the smallest or largest element in the list, or, in schemes like Lomuto, when all elements are equal, causing each recursive call to reduce the list size by only one.",
+    "category": "core",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": "q03",
+    "question": "Who invented merge sort and in what year?",
+    "expected_chunk_ids": ["merge_sort_0"],
+    "reference_answer": "Merge sort was invented by John von Neumann in 1945.",
+    "category": "core",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "q04",
+    "question": "Why is bubble sort still commonly used today, despite its poor performance on large lists?",
+    "expected_chunk_ids": ["bubble_sort_7"],
+    "reference_answer": "Because of its simplicity, bubble sort is mainly used as an educational tool to introduce the concept of a sorting algorithm, even though algorithms like insertion sort are considerably more efficient in practice.",
+    "category": "core",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "q05",
+    "question": "What is a requirement for the input array before performing binary search?",
+    "expected_chunk_ids": ["binary_search_0"],
+    "reference_answer": "The array must be sorted; binary search finds a target value by repeatedly comparing it to the middle element of the sorted array.",
+    "category": "core",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "q06",
+    "question": "What happens when deleting a leaf node from a binary search tree?",
+    "expected_chunk_ids": ["binary_search_tree_7"],
+    "reference_answer": "If the node being deleted is a leaf node, it is simply replaced by NIL.",
+    "category": "core",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "q07",
+    "question": "What set operations are defined on AVL trees beyond single-element insert, delete and lookup, and what helper operations do they rely on?",
+    "expected_chunk_ids": ["avl_tree_11"],
+    "reference_answer": "Union, intersection and set difference are defined as bulk operations on AVL trees, relying on two helper operations called Split and Join.",
+    "category": "core",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": "q08",
+    "question": "What are some practical applications of the heap data structure?",
+    "expected_chunk_ids": ["heap_data_structure_7"],
+    "reference_answer": "Heaps are used in heapsort, in selection algorithms for finding the smallest/largest element in constant time (or the k-smallest in O(k) time), and for finding the median.",
+    "category": "core",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "q09",
+    "question": "What is open addressing as a collision resolution technique in hash tables?",
+    "expected_chunk_ids": ["hash_table_14"],
+    "reference_answer": "Open addressing is a technique where every entry is stored directly in the bucket array itself, and collisions are resolved by probing for the next available slot.",
+    "category": "core",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "q10",
+    "question": "How is a singly linked list traversed from beginning to end?",
+    "expected_chunk_ids": ["linked_list_25"],
+    "reference_answer": "Traversal starts at the list's first node and follows each node's 'next' reference in sequence until reaching a null (end-of-list) marker.",
+    "category": "core",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "q11",
+    "question": "How is a stack typically represented in computer memory?",
+    "expected_chunk_ids": ["stack_abstract_data_type_12"],
+    "reference_answer": "A stack is represented by a block of memory with a fixed bottom location and a stack pointer tracking the current top; many CPU designs (e.g. x86, Z80, 6502) even have a dedicated register for the call stack pointer.",
+    "category": "core",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "q12",
+    "question": "How can a queue be implemented using two lists, and what is the time complexity of the enqueue operation in this design?",
+    "expected_chunk_ids": ["queue_abstract_data_type_6"],
+    "reference_answer": "One list holds the front of the queue and another holds the rear in reverse order; inserting at the front list makes enqueue an O(1) operation.",
+    "category": "core",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": "q13",
+    "question": "What defines a complete graph?",
+    "expected_chunk_ids": ["graph_discrete_mathematics_10"],
+    "reference_answer": "A complete graph is a graph in which every pair of vertices is joined by an edge, i.e., it contains all possible edges.",
+    "category": "core",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "q14",
+    "question": "What problem does Dijkstra's algorithm solve, and who created it?",
+    "expected_chunk_ids": ["dijkstras_algorithm_0"],
+    "reference_answer": "Dijkstra's algorithm finds the shortest paths between nodes in a weighted graph. It was conceived by Edsger W. Dijkstra in 1956 and published three years later.",
+    "category": "core",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": "q15",
+    "question": "How is depth-first search typically implemented as a recursive procedure?",
+    "expected_chunk_ids": ["depth-first_search_7"],
+    "reference_answer": "The recursive DFS procedure labels the current vertex as discovered, then for each adjacent edge leading to an undiscovered vertex, recursively calls DFS on that vertex.",
+    "category": "core",
+    "difficulty": "medium"
+  }
+]
