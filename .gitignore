@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Environment / secrets ---
+.env
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Generated data (regenerable via `python -m src.main build-index`) ---
+data/documents/raw/
+data/documents/documents_metadata.json
+data/documents/chunks.json
+data/index/
+
+# --- Jupyter (jeśli dodasz notebooks/ do eksploracji) ---
+.ipynb_checkpoints/
